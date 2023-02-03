@@ -11,13 +11,13 @@ To convert the existing power supply [ATABA S-360-12](https://prom.ua/ua/p127677
 
 1. Current regulation.
 
-REQ-001. PSUK shall linearly regulate output current up to threshold value that depends on the current regulation threshold selection.
+REQ-001. PSUK shall linearly regulate output current up to the Threshold Value.
 
-REQ-002. Current regulation threshold selection shall be done by the variable resistor in the range from 5A to 25A (wider range is also acceptable).
+REQ-002. Current regulation Threshold Value selection shall be done by the variable resistor in the range from 5A to 25A (wider range is also acceptable).
 
 REQ-003. Switching to current regulation shall be indicated by the yellow LED.
 
-REQ-004. Current regulation shall not decrease output voltage lower than 10V to preserve the Fan operation in current regulation mode.
+REQ-004. Current regulation shall not decrease output voltage lower than 10V to preserve the Fan operation in the current regulation mode.
 
 2. Battery isolation.
 
