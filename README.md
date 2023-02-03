@@ -4,7 +4,7 @@ Power Supply Upgrade Kit (PSUK) allows to turn a power supply into LiFePO4 charg
 
 # Objectives
 
-To convert the existing power supply ATABA S-360-12 into LiFePO4 battery charger.
+To convert the existing power supply [ATABA S-360-12](https://prom.ua/ua/p1276775685-impulsnyj-blok-pitaniya.html) into LiFePO4 battery charger.
 
 
 # Requirements
