@@ -39,4 +39,4 @@ REQ-009. PSUK shall extend the output voltage adjustment range up to 15V. Note: 
 
 # Power Supply data
 
-![FB schematics reverse engineering](/doc/images/fb_sch.png.png)
+![FB schematics reverse engineering](/doc/images/fb_sch.png)
