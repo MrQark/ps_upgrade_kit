@@ -13,25 +13,25 @@ To convert the existing power supply [ATABA S-360-12](https://prom.ua/ua/p127677
 
 REQ-001. PSUK shall linearly regulate output current up to threshold value that depends on the current regulation threshold selection.
 
-REQ-002. If the current regulation threshold is set to "Boost mode" the PSUK regulates output current up to 25A±10%.
+REQ-002. Current regulation threshold selection shall be done by the variable resistor in the range from 5A to 25A (wider range is also acceptable).
 
-REQ-003. If the current regulation threshold is set to "Normal mode" the PSUK regulates output current up to 15A±10%.
+REQ-003. Switching to current regulation shall be indicated by the yellow LED.
 
-REQ-004. If the current regulation threshold is set to "Gentle mode" the PSUK regulates output current up to 5A±10% (optional).
-
-REQ-005. Current regulation threshold shall be manually selected by a mechanical switch.
-
-REQ-006. Switching to current regulation shall be indicated by the yellow LED.
-
-REQ-007. Current regulation shall not affect fan operation.
+REQ-004. Current regulation shall not decrease output voltage lower than 10V to preserve the Fan operation in current regulation mode.
 
 2. Battery isolation.
 
-REQ-008. If no AC power available the PSUK output shall be electically disconnected from the battery to avoid battery disharge by the fan and voltage feedback stages.
+REQ-005. If no AC power available the PSUK output shall be electically disconnected from the battery to avoid battery disharge by the fan and voltage feedback stages.
 
 3. Voltage regulation.
 
-REQ-009. PSUK shall extend the output voltage adjustment range up to 15V. Note: in the original state it is limited to 14-14.1V.
+REQ-006. PSUK shall extend the output voltage adjustment range up to 15V. Note: in the original state it is limited to 14-14.1V.
+
+4. Fan control.
+
+REQ-007. PSUK shall not activate the cooling FAN if the output current is near zero (0-0.3A) otherwise the FAN shall be operating.
+
+Note: this requirement is for supporting the UPS use case when the soundless operation is preferred.
 
 # Concept
 
