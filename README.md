@@ -42,3 +42,9 @@ REQ-009. PSUK shall extend the output voltage adjustment range up to 15V. Note: 
 ![FB schematics reverse engineering](/doc/images/fb_sch.png)
 
 ![FB schematics reverse engineering](/doc/images/fb_sch2.png)
+
+# References
+
+https://danyk.cz/reverz44_en.html
+
+https://elektrotanya.com/s-360-12_12v_30a_power_supply_sch.pdf/download.html
